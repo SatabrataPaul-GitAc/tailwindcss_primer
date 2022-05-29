@@ -1,0 +1,21 @@
+{
+  "name": "tailwindcss_primer",
+  "version": "1.0.0",
+  "description": "Tailwindcss practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "npx tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "web",
+    "design",
+    "style"
+  ],
+  "author": "Satabrata Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
